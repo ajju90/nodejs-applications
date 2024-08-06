@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const users = {
     Bhau: 'Bhau',
-    Shamu: 'Shamu'
+    Ajay: 'Ajay'
 };
 
 app.get('/', (req, res) => {
@@ -29,6 +29,6 @@ app.get('/login', (req, res) => {
     res.redirect('/');
 });
 
-app.listen(3000, () => {
+app.listen(3000, () => { 
     console.log('Server is running on port 3000');
 });
