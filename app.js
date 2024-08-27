@@ -13,7 +13,7 @@ const users = {
 };
 
 app.get('/', (req, res) => {
-    res.render('index', { message: null });
+    res.render('app', { message: null });
 });
 
 app.post('/login', (req, res) => {
